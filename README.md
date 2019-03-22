@@ -1,5 +1,9 @@
-# Signature Installer
+## Signature Installer Designed for DSC
 
+
+
+## Orginal Method
+Original Repositories: https://github.com/valentinxxx/SignatureInstaller.git
 ## Apple Mail – [apple-mail.sh](apple-mail.sh)
 1. Open **Mail**
 2. Preferences / Signatures
