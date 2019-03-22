@@ -1,7 +1,7 @@
 $UserDataPath = $Env:appdata
 $FolderLocation = $UserDataPath + '\Microsoft\Signatures\'
 
-$url = Read-Host -Prompt 'enter url'
+$url = 'https://www.doncastersc.vic.edu.au/doncaster-signature-final.html'
 $osVersion = [System.Environment]::OSVersion.Version.Major
 
 IF ($osVersion -ge 10) {
@@ -16,7 +16,7 @@ $wc.CachePolicy = New-Object System.Net.Cache.HttpRequestCachePolicy([System.Net
 $signatureHTML = $wc.DownloadString($url)
 
 mkdir $FolderLocation -force
-$signatureFile = $FolderLocation + "signature.htm"
+$signatureFile = $FolderLocation + "DSC signature.htm"
 
 $signatureHTML | Out-File -Encoding Unicode $signatureFile
 
