@@ -9,12 +9,12 @@ Original Repositories: https://github.com/valentinxxx/SignatureInstaller.git
 3. Create a new one (or edit an existing) with dummy text
 4. Quit from **Mail**
 5. Open **Terminal**
-6. Run the .sh file
+6. Type in "sudo sh " and drag the file into the terminal
 7. Open **Mail** and use the new signature
 
 ## Microsoft Outlook (macOS) – [outlook-mac.sh](outlook-mac.sh)
 1. Open **Terminal**
-2. Run the .sh file 
+2. Type in "sudo sh " and drag the file into the terminal
 3. Open **Outlook** and use the new signature
 	1. Preferences / Signatures
 
